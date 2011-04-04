@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBDE296A134A32EA00042296 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDE2969134A32EA00042296 /* UIKit.framework */; };
+		DBDE296C134A32EA00042296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDE296B134A32EA00042296 /* Foundation.framework */; };
+		DBDE296E134A32EA00042296 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDE296D134A32EA00042296 /* CoreGraphics.framework */; };
+		DBDE2974134A32EB00042296 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBDE2972134A32EB00042296 /* InfoPlist.strings */; };
+		DBDE2977134A32EB00042296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDE2976134A32EB00042296 /* main.m */; };
+		DBDE297A134A32EB00042296 /* BluetoothEnableAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDE2979134A32EB00042296 /* BluetoothEnableAppDelegate.m */; };
+		DBDE297D134A32EB00042296 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBDE297B134A32EB00042296 /* MainWindow.xib */; };
+		DBDE2980134A32EB00042296 /* BluetoothEnableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDE297F134A32EB00042296 /* BluetoothEnableViewController.m */; };
+		DBDE2983134A32EB00042296 /* BluetoothEnableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBDE2981134A32EB00042296 /* BluetoothEnableViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DBDE2965134A32EA00042296 /* BluetoothEnable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothEnable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBDE2969134A32EA00042296 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DBDE296B134A32EA00042296 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DBDE296D134A32EA00042296 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DBDE2971134A32EB00042296 /* BluetoothEnable-Info.plist */ = {isa = PBXFileReference; path = "BluetoothEnable-Info.plist"; sourceTree = "<group>"; };
+		DBDE2973134A32EB00042296 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBDE2975134A32EB00042296 /* BluetoothEnable-Prefix.pch */ = {isa = PBXFileReference; path = "BluetoothEnable-Prefix.pch"; sourceTree = "<group>"; };
+		DBDE2976134A32EB00042296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBDE2978134A32EB00042296 /* BluetoothEnableAppDelegate.h */ = {isa = PBXFileReference; path = BluetoothEnableAppDelegate.h; sourceTree = "<group>"; };
+		DBDE2979134A32EB00042296 /* BluetoothEnableAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothEnableAppDelegate.m; sourceTree = "<group>"; };
+		DBDE297C134A32EB00042296 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DBDE297E134A32EB00042296 /* BluetoothEnableViewController.h */ = {isa = PBXFileReference; path = BluetoothEnableViewController.h; sourceTree = "<group>"; };
+		DBDE297F134A32EB00042296 /* BluetoothEnableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothEnableViewController.m; sourceTree = "<group>"; };
+		DBDE2982134A32EB00042296 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BluetoothEnableViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBDE2962134A32EA00042296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDE296A134A32EA00042296 /* UIKit.framework in Frameworks */,
+				DBDE296C134A32EA00042296 /* Foundation.framework in Frameworks */,
+				DBDE296E134A32EA00042296 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBDE295A134A32EA00042296 = {
+			isa = PBXGroup;
+			children = (
+				DBDE296F134A32EB00042296 /* BluetoothEnable */,
+				DBDE2968134A32EA00042296 /* Frameworks */,
+				DBDE2966134A32EA00042296 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBDE2966134A32EA00042296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBDE2965134A32EA00042296 /* BluetoothEnable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBDE2968134A32EA00042296 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBDE2969134A32EA00042296 /* UIKit.framework */,
+				DBDE296B134A32EA00042296 /* Foundation.framework */,
+				DBDE296D134A32EA00042296 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBDE296F134A32EB00042296 /* BluetoothEnable */ = {
+			isa = PBXGroup;
+			children = (
+				DBDE2978134A32EB00042296 /* BluetoothEnableAppDelegate.h */,
+				DBDE2979134A32EB00042296 /* BluetoothEnableAppDelegate.m */,
+				DBDE297B134A32EB00042296 /* MainWindow.xib */,
+				DBDE297E134A32EB00042296 /* BluetoothEnableViewController.h */,
+				DBDE297F134A32EB00042296 /* BluetoothEnableViewController.m */,
+				DBDE2981134A32EB00042296 /* BluetoothEnableViewController.xib */,
+				DBDE2970134A32EB00042296 /* Supporting Files */,
+			);
+			path = BluetoothEnable;
+			sourceTree = "<group>";
+		};
+		DBDE2970134A32EB00042296 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBDE2971134A32EB00042296 /* BluetoothEnable-Info.plist */,
+				DBDE2972134A32EB00042296 /* InfoPlist.strings */,
+				DBDE2975134A32EB00042296 /* BluetoothEnable-Prefix.pch */,
+				DBDE2976134A32EB00042296 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBDE2964134A32EA00042296 /* BluetoothEnable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBDE2986134A32EB00042296 /* Build configuration list for PBXNativeTarget "BluetoothEnable" */;
+			buildPhases = (
+				DBDE2961134A32EA00042296 /* Sources */,
+				DBDE2962134A32EA00042296 /* Frameworks */,
+				DBDE2963134A32EA00042296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluetoothEnable;
+			productName = BluetoothEnable;
+			productReference = DBDE2965134A32EA00042296 /* BluetoothEnable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBDE295C134A32EA00042296 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DBDE295F134A32EA00042296 /* Build configuration list for PBXProject "BluetoothEnable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DBDE295A134A32EA00042296;
+			productRefGroup = DBDE2966134A32EA00042296 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBDE2964134A32EA00042296 /* BluetoothEnable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBDE2963134A32EA00042296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDE2974134A32EB00042296 /* InfoPlist.strings in Resources */,
+				DBDE297D134A32EB00042296 /* MainWindow.xib in Resources */,
+				DBDE2983134A32EB00042296 /* BluetoothEnableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBDE2961134A32EA00042296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDE2977134A32EB00042296 /* main.m in Sources */,
+				DBDE297A134A32EB00042296 /* BluetoothEnableAppDelegate.m in Sources */,
+				DBDE2980134A32EB00042296 /* BluetoothEnableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBDE2972134A32EB00042296 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBDE2973134A32EB00042296 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DBDE297B134A32EB00042296 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBDE297C134A32EB00042296 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		DBDE2981134A32EB00042296 /* BluetoothEnableViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBDE2982134A32EB00042296 /* en */,
+			);
+			name = BluetoothEnableViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBDE2984134A32EB00042296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBDE2985134A32EB00042296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		DBDE2987134A32EB00042296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluetoothEnable/BluetoothEnable-Prefix.pch";
+				INFOPLIST_FILE = "BluetoothEnable/BluetoothEnable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DBDE2988134A32EB00042296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluetoothEnable/BluetoothEnable-Prefix.pch";
+				INFOPLIST_FILE = "BluetoothEnable/BluetoothEnable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBDE295F134A32EA00042296 /* Build configuration list for PBXProject "BluetoothEnable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBDE2984134A32EB00042296 /* Debug */,
+				DBDE2985134A32EB00042296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBDE2986134A32EB00042296 /* Build configuration list for PBXNativeTarget "BluetoothEnable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBDE2987134A32EB00042296 /* Debug */,
+				DBDE2988134A32EB00042296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBDE295C134A32EA00042296 /* Project object */;
+}
