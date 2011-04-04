@@ -16,6 +16,7 @@
 		DBDE297D134A32EB00042296 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBDE297B134A32EB00042296 /* MainWindow.xib */; };
 		DBDE2980134A32EB00042296 /* BluetoothEnableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDE297F134A32EB00042296 /* BluetoothEnableViewController.m */; };
 		DBDE2983134A32EB00042296 /* BluetoothEnableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBDE2981134A32EB00042296 /* BluetoothEnableViewController.xib */; };
+		DBDE298A134A360200042296 /* BluetoothManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDE2989134A360200042296 /* BluetoothManager.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,17 @@
 		DBDE2969134A32EA00042296 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DBDE296B134A32EA00042296 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DBDE296D134A32EA00042296 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DBDE2971134A32EB00042296 /* BluetoothEnable-Info.plist */ = {isa = PBXFileReference; path = "BluetoothEnable-Info.plist"; sourceTree = "<group>"; };
+		DBDE2971134A32EB00042296 /* BluetoothEnable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BluetoothEnable-Info.plist"; sourceTree = "<group>"; };
 		DBDE2973134A32EB00042296 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DBDE2975134A32EB00042296 /* BluetoothEnable-Prefix.pch */ = {isa = PBXFileReference; path = "BluetoothEnable-Prefix.pch"; sourceTree = "<group>"; };
+		DBDE2975134A32EB00042296 /* BluetoothEnable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BluetoothEnable-Prefix.pch"; sourceTree = "<group>"; };
 		DBDE2976134A32EB00042296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DBDE2978134A32EB00042296 /* BluetoothEnableAppDelegate.h */ = {isa = PBXFileReference; path = BluetoothEnableAppDelegate.h; sourceTree = "<group>"; };
+		DBDE2978134A32EB00042296 /* BluetoothEnableAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothEnableAppDelegate.h; sourceTree = "<group>"; };
 		DBDE2979134A32EB00042296 /* BluetoothEnableAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothEnableAppDelegate.m; sourceTree = "<group>"; };
 		DBDE297C134A32EB00042296 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		DBDE297E134A32EB00042296 /* BluetoothEnableViewController.h */ = {isa = PBXFileReference; path = BluetoothEnableViewController.h; sourceTree = "<group>"; };
+		DBDE297E134A32EB00042296 /* BluetoothEnableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothEnableViewController.h; sourceTree = "<group>"; };
 		DBDE297F134A32EB00042296 /* BluetoothEnableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothEnableViewController.m; sourceTree = "<group>"; };
 		DBDE2982134A32EB00042296 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BluetoothEnableViewController.xib; sourceTree = "<group>"; };
+		DBDE2989134A360200042296 /* BluetoothManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BluetoothManager.framework; path = System/Library/PrivateFrameworks/BluetoothManager.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBDE298A134A360200042296 /* BluetoothManager.framework in Frameworks */,
 				DBDE296A134A32EA00042296 /* UIKit.framework in Frameworks */,
 				DBDE296C134A32EA00042296 /* Foundation.framework in Frameworks */,
 				DBDE296E134A32EA00042296 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +55,7 @@
 		DBDE295A134A32EA00042296 = {
 			isa = PBXGroup;
 			children = (
+				DBDE2989134A360200042296 /* BluetoothManager.framework */,
 				DBDE296F134A32EB00042296 /* BluetoothEnable */,
 				DBDE2968134A32EA00042296 /* Frameworks */,
 				DBDE2966134A32EA00042296 /* Products */,
@@ -201,7 +205,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jeff McLeman (4GULQSGA2C)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
@@ -210,6 +214,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E24EA18D-2022-4A11-BB3A-1407E736816F";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -218,13 +223,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jeff McLeman (4GULQSGA2C)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E24EA18D-2022-4A11-BB3A-1407E736816F";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -234,6 +240,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BluetoothEnable/BluetoothEnable-Prefix.pch";
@@ -248,6 +258,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BluetoothEnable/BluetoothEnable-Prefix.pch";
 				INFOPLIST_FILE = "BluetoothEnable/BluetoothEnable-Info.plist";
