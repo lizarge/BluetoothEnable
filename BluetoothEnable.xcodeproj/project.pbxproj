@@ -17,10 +17,11 @@
 		DBDE2980134A32EB00042296 /* BluetoothEnableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDE297F134A32EB00042296 /* BluetoothEnableViewController.m */; };
 		DBDE2983134A32EB00042296 /* BluetoothEnableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBDE2981134A32EB00042296 /* BluetoothEnableViewController.xib */; };
 		DBDE298A134A360200042296 /* BluetoothManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDE2989134A360200042296 /* BluetoothManager.framework */; };
+		DBDE298C134A491200042296 /* bluetooth-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DBDE298B134A491200042296 /* bluetooth-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DBDE2965134A32EA00042296 /* BluetoothEnable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothEnable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBDE2965134A32EA00042296 /* btenabler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = btenabler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBDE2969134A32EA00042296 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DBDE296B134A32EA00042296 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DBDE296D134A32EA00042296 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -35,6 +36,7 @@
 		DBDE297F134A32EB00042296 /* BluetoothEnableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothEnableViewController.m; sourceTree = "<group>"; };
 		DBDE2982134A32EB00042296 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BluetoothEnableViewController.xib; sourceTree = "<group>"; };
 		DBDE2989134A360200042296 /* BluetoothManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BluetoothManager.framework; path = System/Library/PrivateFrameworks/BluetoothManager.framework; sourceTree = SDKROOT; };
+		DBDE298B134A491200042296 /* bluetooth-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bluetooth-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +67,7 @@
 		DBDE2966134A32EA00042296 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DBDE2965134A32EA00042296 /* BluetoothEnable.app */,
+				DBDE2965134A32EA00042296 /* btenabler.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				DBDE2971134A32EB00042296 /* BluetoothEnable-Info.plist */,
+				DBDE298B134A491200042296 /* bluetooth-icon.png */,
 				DBDE2972134A32EB00042296 /* InfoPlist.strings */,
 				DBDE2975134A32EB00042296 /* BluetoothEnable-Prefix.pch */,
 				DBDE2976134A32EB00042296 /* main.m */,
@@ -108,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DBDE2964134A32EA00042296 /* BluetoothEnable */ = {
+		DBDE2964134A32EA00042296 /* btenabler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DBDE2986134A32EB00042296 /* Build configuration list for PBXNativeTarget "BluetoothEnable" */;
+			buildConfigurationList = DBDE2986134A32EB00042296 /* Build configuration list for PBXNativeTarget "btenabler" */;
 			buildPhases = (
 				DBDE2961134A32EA00042296 /* Sources */,
 				DBDE2962134A32EA00042296 /* Frameworks */,
@@ -120,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = BluetoothEnable;
+			name = btenabler;
 			productName = BluetoothEnable;
-			productReference = DBDE2965134A32EA00042296 /* BluetoothEnable.app */;
+			productReference = DBDE2965134A32EA00042296 /* btenabler.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DBDE2964134A32EA00042296 /* BluetoothEnable */,
+				DBDE2964134A32EA00042296 /* btenabler */,
 			);
 		};
 /* End PBXProject section */
@@ -155,6 +158,7 @@
 				DBDE2974134A32EB00042296 /* InfoPlist.strings in Resources */,
 				DBDE297D134A32EB00042296 /* MainWindow.xib in Resources */,
 				DBDE2983134A32EB00042296 /* BluetoothEnableViewController.xib in Resources */,
+				DBDE298C134A491200042296 /* bluetooth-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,14 +227,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jeff McLeman (4GULQSGA2C)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jeff McLeman";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E24EA18D-2022-4A11-BB3A-1407E736816F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F575D4D2-9E6B-49A5-835C-6F2713AC7EA9";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -283,13 +287,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DBDE2986134A32EB00042296 /* Build configuration list for PBXNativeTarget "BluetoothEnable" */ = {
+		DBDE2986134A32EB00042296 /* Build configuration list for PBXNativeTarget "btenabler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DBDE2987134A32EB00042296 /* Debug */,
 				DBDE2988134A32EB00042296 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
