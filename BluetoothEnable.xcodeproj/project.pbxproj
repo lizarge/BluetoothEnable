@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB794E3113FA267400A7C14D /* README in Resources */ = {isa = PBXBuildFile; fileRef = DB794E3013FA267400A7C14D /* README */; };
 		DBDE296A134A32EA00042296 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDE2969134A32EA00042296 /* UIKit.framework */; };
 		DBDE296C134A32EA00042296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDE296B134A32EA00042296 /* Foundation.framework */; };
 		DBDE296E134A32EA00042296 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDE296D134A32EA00042296 /* CoreGraphics.framework */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB794E3013FA267400A7C14D /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		DBDE2965134A32EA00042296 /* btenabler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = btenabler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBDE2969134A32EA00042296 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DBDE296B134A32EA00042296 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,9 +56,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB794E2F13FA265A00A7C14D /* Other Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB794E3013FA267400A7C14D /* README */,
+			);
+			name = "Other Files";
+			sourceTree = "<group>";
+		};
 		DBDE295A134A32EA00042296 = {
 			isa = PBXGroup;
 			children = (
+				DB794E2F13FA265A00A7C14D /* Other Files */,
 				DBDE2989134A360200042296 /* BluetoothManager.framework */,
 				DBDE296F134A32EB00042296 /* BluetoothEnable */,
 				DBDE2968134A32EA00042296 /* Frameworks */,
@@ -133,6 +144,9 @@
 /* Begin PBXProject section */
 		DBDE295C134A32EA00042296 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = DBDE295F134A32EA00042296 /* Build configuration list for PBXProject "BluetoothEnable" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -159,6 +173,7 @@
 				DBDE297D134A32EB00042296 /* MainWindow.xib in Resources */,
 				DBDE2983134A32EB00042296 /* BluetoothEnableViewController.xib in Resources */,
 				DBDE298C134A491200042296 /* bluetooth-icon.png in Resources */,
+				DB794E3113FA267400A7C14D /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
